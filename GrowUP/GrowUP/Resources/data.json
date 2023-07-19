@@ -1,0 +1,129 @@
+{
+  "data": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Torta 16cm",
+        "items": [
+          {
+            "id": 1,
+            "amount": 250.0
+          },
+          {
+            "id": 2,
+            "amount": 250.0
+          },
+          {
+            "id": 3,
+            "amount": 250.0
+          },
+          {
+            "id": 4,
+            "amount": 3
+          },
+          {
+            "id": 5,
+            "amount": 400.0
+          },
+          {
+            "id": 6,
+            "amount": 400.0
+          }
+        ],
+        "tools": [
+          
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Harina",
+        "unit": "mass",
+        "price": 336.0,
+        "image": ""
+      },
+      {
+        "id": 2,
+        "name": "Azúcar",
+        "unit": "mass",
+        "price": 340.0,
+        "image": ""
+      },
+      {
+        "id": 3,
+        "name": "Crema de leche",
+        "unit": "mass",
+        "price": 1900.0,
+        "image": ""
+      },
+      {
+        "id": 4,
+        "name": "Huevos",
+        "unit": "individual",
+        "price": 122.0,
+        "image": ""
+      },
+      {
+        "id": 5,
+        "name": "Chocolate",
+        "unit": "mass",
+        "price": 2300.0,
+        "image": ""
+      },
+      {
+        "id": 6,
+        "name": "Pasta Ballina",
+        "unit": "mass",
+        "price": 1930.0,
+        "image": ""
+      }
+    ],
+    "labour": [
+      {
+        "id": 1,
+        "name": "Cocinar",
+        "price": 1000.0
+      },
+      {
+        "id": 1,
+        "name": "Decorar",
+        "price": 1000.0
+      }
+    ],
+    "tools": [
+      {
+        "id": 1,
+        "name": "Base 18cm",
+        "price": 500.0
+      },
+      {
+        "id": 2,
+        "name": "Base 20cm",
+        "price": 750.0
+      },
+      {
+        "id": 3,
+        "name": "Caja",
+        "price": 750.0
+      },
+      {
+        "id": 4,
+        "name": "Vela",
+        "price": 300.0
+      },
+      {
+        "id": 5,
+        "name": "Vela",
+        "price": 500.0
+      }
+    ],
+    "services": [
+      {
+        "id": 1,
+        "name": "Envío",
+        "price": 4000.0
+      }
+    ]
+  }
+}
