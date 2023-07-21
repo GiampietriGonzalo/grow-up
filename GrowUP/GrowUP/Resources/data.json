@@ -37,42 +37,42 @@
     ],
     "items": [
       {
-        "id": 1,
+        "id": 11,
         "name": "Harina",
         "unit": "mass",
         "price": 336.0,
         "image": ""
       },
       {
-        "id": 2,
+        "id": 12,
         "name": "Azúcar",
         "unit": "mass",
         "price": 340.0,
         "image": ""
       },
       {
-        "id": 3,
+        "id": 13,
         "name": "Crema de leche",
         "unit": "mass",
         "price": 1900.0,
         "image": ""
       },
       {
-        "id": 4,
+        "id": 14,
         "name": "Huevos",
         "unit": "individual",
         "price": 122.0,
         "image": ""
       },
       {
-        "id": 5,
+        "id": 15,
         "name": "Chocolate",
         "unit": "mass",
         "price": 2300.0,
         "image": ""
       },
       {
-        "id": 6,
+        "id": 16,
         "name": "Pasta Ballina",
         "unit": "mass",
         "price": 1930.0,
@@ -81,46 +81,41 @@
     ],
     "labour": [
       {
-        "id": 1,
+        "id": 21,
         "name": "Cocinar",
         "price": 1000.0
       },
       {
-        "id": 1,
+        "id": 22,
         "name": "Decorar",
         "price": 1000.0
       }
     ],
     "tools": [
       {
-        "id": 1,
+        "id": 31,
         "name": "Base 18cm",
         "price": 500.0
       },
       {
-        "id": 2,
+        "id": 32,
         "name": "Base 20cm",
         "price": 750.0
       },
       {
-        "id": 3,
+        "id": 33,
         "name": "Caja",
         "price": 750.0
       },
       {
-        "id": 4,
+        "id": 34,
         "name": "Vela",
         "price": 300.0
-      },
-      {
-        "id": 5,
-        "name": "Vela",
-        "price": 500.0
       }
     ],
     "services": [
       {
-        "id": 1,
+        "id": 41,
         "name": "Envío",
         "price": 4000.0
       }

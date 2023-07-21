@@ -19,6 +19,8 @@
 		7A8377642A67A21300888F48 /* ServiceDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8377632A67A21300888F48 /* ServiceDTO.swift */; };
 		7A8377662A67A22D00888F48 /* ToolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8377652A67A22D00888F48 /* ToolModel.swift */; };
 		7A83776A2A67A36E00888F48 /* EstimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8377692A67A36E00888F48 /* EstimateView.swift */; };
+		7A9018B62A6AFC7A00F0B0CC /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9018B52A6AFC7A00F0B0CC /* ItemRowView.swift */; };
+		7A9018B82A6B15A200F0B0CC /* SelectableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9018B72A6B15A200F0B0CC /* SelectableRowView.swift */; };
 		7ACFC3EE2A67A6A2004EE12B /* EstimateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFC3ED2A67A6A2004EE12B /* EstimateViewModel.swift */; };
 		7ADA0DF12A67A78B00DF0B1C /* GrowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA0DF02A67A78B00DF0B1C /* GrowModel.swift */; };
 		7ADA0DF32A67A7FF00DF0B1C /* LabourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA0DF22A67A7FF00DF0B1C /* LabourModel.swift */; };
@@ -39,6 +41,8 @@
 		7A8377632A67A21300888F48 /* ServiceDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDTO.swift; sourceTree = "<group>"; };
 		7A8377652A67A22D00888F48 /* ToolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolModel.swift; sourceTree = "<group>"; };
 		7A8377692A67A36E00888F48 /* EstimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateView.swift; sourceTree = "<group>"; };
+		7A9018B52A6AFC7A00F0B0CC /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		7A9018B72A6B15A200F0B0CC /* SelectableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableRowView.swift; sourceTree = "<group>"; };
 		7ACFC3ED2A67A6A2004EE12B /* EstimateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewModel.swift; sourceTree = "<group>"; };
 		7ADA0DF02A67A78B00DF0B1C /* GrowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowModel.swift; sourceTree = "<group>"; };
 		7ADA0DF22A67A7FF00DF0B1C /* LabourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabourModel.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 		7A83775E2A67A0DE00888F48 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7A9018B22A6AFBBD00F0B0CC /* View */,
 				7A83775F2A67A0F000888F48 /* Model */,
 			);
 			path = Core;
@@ -195,6 +200,15 @@
 			isa = PBXGroup;
 			children = (
 				7A8377692A67A36E00888F48 /* EstimateView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A9018B22A6AFBBD00F0B0CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A9018B52A6AFC7A00F0B0CC /* ItemRowView.swift */,
+				7A9018B72A6B15A200F0B0CC /* SelectableRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,11 +303,13 @@
 				7A83775D2A67A05C00888F48 /* ItemModel.swift in Sources */,
 				7A8377432A679DBA00888F48 /* ContentView.swift in Sources */,
 				7ACFC3EE2A67A6A2004EE12B /* EstimateViewModel.swift in Sources */,
+				7A9018B62A6AFC7A00F0B0CC /* ItemRowView.swift in Sources */,
 				7A83775A2A67A01900888F48 /* ItemsRepository.swift in Sources */,
 				7A8377642A67A21300888F48 /* ServiceDTO.swift in Sources */,
 				7ADA0DF32A67A7FF00DF0B1C /* LabourModel.swift in Sources */,
 				7A8377532A679E2200888F48 /* ItemListView.swift in Sources */,
 				7ADA0DF12A67A78B00DF0B1C /* GrowModel.swift in Sources */,
+				7A9018B82A6B15A200F0B0CC /* SelectableRowView.swift in Sources */,
 				7A8377562A679E3E00888F48 /* ItemListViewModel.swift in Sources */,
 				7A83776A2A67A36E00888F48 /* EstimateView.swift in Sources */,
 				7A8377662A67A22D00888F48 /* ToolModel.swift in Sources */,

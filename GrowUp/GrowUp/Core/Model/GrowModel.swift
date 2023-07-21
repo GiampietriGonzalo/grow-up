@@ -12,7 +12,7 @@ struct GrowModelDTO: Decodable {
 struct GrowModel: Decodable {
     var products: [ProductModel] = []
     var items: [ItemModel] = []
-    var tools: [ToolModel] = []
-    var services: [ServiceModel] = []
-    var labour: [LabourModel] = []
+    var tools: [ExtraItemModel] = []
+    var services: [ExtraItemModel] = []
+    var labour: [ExtraItemModel] = []
 }
